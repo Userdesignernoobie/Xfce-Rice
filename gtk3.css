@@ -1,0 +1,31 @@
+.xfce4-panel {
+   border-radius: 10px; /* Simplified single property */
+}
+
+.xfce4-panel .tasklist .toggle:checked {
+   border-radius: 8px; /* Reduced radius */
+}
+
+.tasklist button:checked {
+   border-bottom: 2px solid white; /* Simplified thickness */
+}
+
+.flat,
+.toggle {
+   font-family: sans-serif; /* Use a default system font for better performance */
+   font-size: 12px; /* Slightly smaller size */
+   padding: 2px; /* Reduced padding */
+}
+
+.flat:hover,
+.toggle:hover {
+   font-family: sans-serif;
+   font-size: 12px;
+   padding: 2px;
+}
+
+.flat:checked,
+.toggle:checked {
+   border-bottom: 2px solid white;
+   padding: 2px;
+}
